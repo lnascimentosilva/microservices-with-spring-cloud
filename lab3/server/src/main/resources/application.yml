@@ -1,0 +1,11 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lnascimentosilva/microservices-with-spring-cloud/
+          searchPaths: configData/lab3
+
+server:
+  port: 8001
